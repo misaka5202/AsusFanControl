@@ -9,12 +9,6 @@ keyboard backlight, the ALS and the battery. Keeping it in the SMC layer made
 that kext responsible for hardware it does not own, and made the fan code
 impossible to use on its own.
 
-## Why not SMCAMDProcessor or SMCRadeonSensors
-
-Those publish CPU temperature from MSRs and GPU temperature from PCI registers
-respectively - `SMCAMDProcessor`'s binary contains no fan keys at all. The fan
-keys need a driver that can reach ATKD, so they belong here.
-
 ## SMC keys
 
 | Key | Meaning |
