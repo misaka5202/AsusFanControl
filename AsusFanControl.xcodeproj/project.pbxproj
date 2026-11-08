@@ -145,7 +145,8 @@
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_VERSION = 1.4.2;
+					
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				ONLY_ACTIVE_ARCH = NO;
@@ -174,7 +175,8 @@
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_VERSION = 1.4.2;
+					
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				ONLY_ACTIVE_ARCH = NO;
@@ -199,7 +201,8 @@
 				);
 				INFOPLIST_FILE = AsusFanControl/Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
-				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_VERSION = 1.4.2;
+					
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				OTHER_CPLUSPLUSFLAGS = "-Wno-inconsistent-missing-override";
@@ -226,7 +229,8 @@
 				);
 				INFOPLIST_FILE = AsusFanControl/Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
-				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_VERSION = 1.4.2;
+					
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				OTHER_CPLUSPLUSFLAGS = "-Wno-inconsistent-missing-override";
