@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0000000000000000000001 /* AsusFanControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* AsusFanControl.cpp */; };
+		BB0000000000000000000003 /* KeyImplementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* KeyImplementations.cpp */; };
+		BB0000000000000000000005 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* libkmod.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB0000000000000000000007 /* AsusFanControl.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsusFanControl.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000000000000000000002 /* AsusFanControl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AsusFanControl.cpp; sourceTree = "<group>"; };
+		BB0000000000000000000008 /* AsusFanControl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AsusFanControl.hpp; sourceTree = "<group>"; };
+		BB0000000000000000000004 /* KeyImplementations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeyImplementations.cpp; sourceTree = "<group>"; };
+		BB0000000000000000000009 /* KeyImplementations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyImplementations.hpp; sourceTree = "<group>"; };
+		BB000000000000000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0000000000000000000006 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000005 /* libkmod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB000000000000000000000C = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000D /* AsusFanControl */,
+				BB000000000000000000000E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB000000000000000000000D /* AsusFanControl */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000002 /* AsusFanControl.cpp */,
+				BB0000000000000000000008 /* AsusFanControl.hpp */,
+				BB0000000000000000000004 /* KeyImplementations.cpp */,
+				BB0000000000000000000009 /* KeyImplementations.hpp */,
+				BB000000000000000000000A /* Info.plist */,
+				BB0000000000000000000006 /* libkmod.a */,
+			);
+			path = AsusFanControl;
+			sourceTree = "<group>";
+		};
+		BB000000000000000000000E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000007 /* AsusFanControl.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB000000000000000000000F /* AsusFanControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0000000000000000000010 /* Build configuration list for PBXNativeTarget "AsusFanControl" */;
+			buildPhases = (
+				BB0000000000000000000011 /* Sources */,
+				BB000000000000000000000B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsusFanControl;
+			productName = AsusFanControl;
+			productReference = BB0000000000000000000007 /* AsusFanControl.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0000000000000000000012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = BB0000000000000000000013 /* Build configuration list for PBXProject "AsusFanControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB000000000000000000000C;
+			productRefGroup = BB000000000000000000000E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB000000000000000000000F /* AsusFanControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000001 /* AsusFanControl.cpp in Sources */,
+				BB0000000000000000000003 /* KeyImplementations.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB0000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"PRODUCT_NAME=AsusFanControl",
+					"MODULE_VERSION=1.4.2",
+					"$(inherited)",
+				);
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB0000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRODUCT_NAME=AsusFanControl",
+					"MODULE_VERSION=1.4.2",
+					"$(inherited)",
+				);
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB0000000000000000000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MODULE_VERSION=1.4.2",
+					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/VirtualSMC.kext/Contents/Resources/",
+					"$(PROJECT_DIR)/Lilu.kext/Contents/Resources/",
+					"$(PROJECT_DIR)/AsusFanControl",
+				);
+				INFOPLIST_FILE = AsusFanControl/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-inconsistent-missing-override";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hieplpvip.AsusFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		BB0000000000000000000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MODULE_VERSION=1.4.2",
+					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/VirtualSMC.kext/Contents/Resources/",
+					"$(PROJECT_DIR)/Lilu.kext/Contents/Resources/",
+					"$(PROJECT_DIR)/AsusFanControl",
+				);
+				INFOPLIST_FILE = AsusFanControl/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MODULE_NAME = com.hieplpvip.AsusFanControl;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-inconsistent-missing-override";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hieplpvip.AsusFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0000000000000000000010 /* Build configuration list for PBXNativeTarget "AsusFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000000000000000000016 /* Debug */,
+				BB0000000000000000000017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0000000000000000000013 /* Build configuration list for PBXProject "AsusFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000000000000000000014 /* Debug */,
+				BB0000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0000000000000000000012 /* Project object */;
+}

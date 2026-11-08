@@ -1,0 +1,19 @@
+# Xcode
+build/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# SDKs fetched by CI
+Lilu.kext/
+VirtualSMC.kext/
+MacKernelSDK/
+
+# macOS
+.DS_Store
+._*
+
+# Build output
+*.o
+*.dylib
+*.zip
